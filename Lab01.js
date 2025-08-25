@@ -96,3 +96,5 @@ const updatedProfile={
   isOnline: false
 }
 console.log("Update profile is Online?: ", updatedProfile.isOnline);
+// create a new variable to store the udatedprofile because use spread operator and it call name of the old object
+// beside rest operator we need do the important thing first and then  use new name to store rest operator of the end 

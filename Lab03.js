@@ -70,10 +70,9 @@ const userData = [
 
 // YOUR TASK 1 CODE HERE
 const [firstUser, ...other] = userData;
-// console.log(firstUser);
 
-// console.log("First User: ", firstUser.name);
-// console.log("First Tast: ", firstUser.tasks[0].description);
+console.log("First User: ", firstUser.name);
+console.log("First Tast: ", firstUser.tasks[0].description);
 /**
  * TASK 2: Filter out a Specific User
  *
@@ -86,9 +85,9 @@ const [firstUser, ...other] = userData;
 
 // YOUR TASK 2 CODE HERE
 
-// const newUserData = userData.filter((user) => user.name !== "Bob");
-// console.log("Users other than Bob: ");
-// console.log(JSON.stringify(newUserData, null, 2));
+const newUserData = userData.filter((user) => user.name !== "Bob");
+console.log("Users other than Bob: ");
+console.log(JSON.stringify(newUserData, null, 2));
 
 /**
  * TASK 3: Find Users with Incomplete Tasks
